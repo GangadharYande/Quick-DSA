@@ -1,5 +1,6 @@
 import Sorting.BubbleSort;
 import Sorting.Print;
+import Sorting.SelectionSort;
 
 public class Main {
 
@@ -13,28 +14,33 @@ public class Main {
                 3456, 0, -50000, 23456, 123456, 789, 1023, 67, 345, 123, -34567, 876543, 234, 0, 999, 87, 2345, -678,
                 56, 4500, 350, -9999, 6789, -12345, 67890, 9876, 234567, 0, -98765, 6543, 876, -234567, 543, 1234,
                 78900, 8900, -1, 99999, -100000, 345, 5678, 987, 2468, -789, 23, 45, 3456, 98, -345, 654, 0 };
-
-        System.out.println("Unsorted array:");
-        printer.printArray(testArray); 
         
-        System.out.println("Normal Bubble \n");
+        Print.commentPrint("Unsorted array: TestCase");
+        printer.printArray(testArray); 
+        Print.printNewline();
+        Print.commentPrint("Normal Bubble:");
+        System.out.println();
         BubbleSort Normal = new BubbleSort();
         Normal.BubbleSort(testArray);
-
-        System.out.println("Sorting the array using improvisedBubbleSort Book \n");
-
+        Print.printNewline();
+        Print.commentPrint("ImprovisedBubbleSort1:");
+        Print.printNewline();
         BubbleSort improvisedOne = new BubbleSort();
+        Print.printNewline();
         improvisedOne.ImprovisedOne(testArray);
-
-
-        System.out.println("Sorting the array using improvised \n ");
+        Print.printNewline();
+        Print.commentPrint("ImprovisedBubbleSort2:");
         BubbleSort improvisedTwo = new BubbleSort();
         improvisedTwo.improvisedTwo(testArray);
 
         // Bubble Sort Ends here 
 
         // Selection Sort Starts here 
-
+        
+        Print.printNewline();
+        Print.commentPrint("Selection Sort");
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.selectionSort(testArray);
 
         
 

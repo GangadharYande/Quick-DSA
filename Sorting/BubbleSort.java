@@ -9,10 +9,10 @@ public class BubbleSort {
         for( int pass = A.length-1;pass>=0;pass--){
             for(int i = 0; i < A.length - pass - 1; i++){
                 if(A[i]>A[i+1]){
-                    swapping.swap(A,i, i+1);
-                    // int temp = A[i];
-                    // A[i] = A[i+1];
-                    // A[i+1] = temp;
+                    // swapping.swap(A,i, i+1);
+                    int temp = A[i];
+                    A[i] = A[i+1];
+                    A[i+1] = temp;
                 }
             }
         }
