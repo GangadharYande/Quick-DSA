@@ -33,15 +33,15 @@ To get started with solving problems or contributing, follow these steps:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/GangadharYande/DSA-ProblemSolving-JAVA.git
+   git clone https://github.com/GangadharYande/Quick-DSA
    
 2) Navigate to the cloned directory:
-   cd DSA-ProblemSolving-JAVA
-3) Explore the problems directory to find problems categorized by data structures and algorithms.
+   cd Qucik-DSA
+3) Explore the problems directory to find problems categorized
 4) Choose a problem you'd like to solve or contribute to Solve the problem using Java and add your solution to the respective directory.
 
 5) If contributing, follow the contribution guidelines mentioned above.
-6) Please Dont forget to follow to get added in Contribution list form <a href="https://github.com/GangadharYande/DSA-ProblemSolving-JAVA/blob/main/CONTRIBUTING.md" target="blank"> here</a>.
+6) Please Dont forget to follow to get added in Contribution list form <a href="https://github.com/GangadharYande/Quick-DSA/blob/main/Contribution.md" target="blank"> here</a>.
 7) Once you're done, submit a pull request with your changes.
 
 Happy problem-solving!  <img src="https://github.com/GangadharYande/Profile-Assets/blob/main/Handshake.gif" alt="Handshake" width="35">
