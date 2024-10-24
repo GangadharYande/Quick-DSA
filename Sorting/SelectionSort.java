@@ -5,8 +5,8 @@ public class SelectionSort {
     // DisAdv : Doesn't Scale well 
     // Time Complexity Best-Worst-Avg : O(n^2)
 
-    public void selectionSort(int A[]) {
-        Print ans = new Print();
+    public static void selectionSort(int A[]) {
+        
 
         int min;
         int n = A.length;
@@ -23,6 +23,6 @@ public class SelectionSort {
             }
             
         }
-        ans.printArray(A);
+        Print.printArray(A);
     }
 }

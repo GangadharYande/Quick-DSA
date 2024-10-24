@@ -5,9 +5,9 @@ public class BubbleSort {
     Print ans = new Print();
     Swap swapping = new Swap();
     // Time Complexity :  O(n^2)
-    public void BubbleSort(int A[]){
-        for( int pass = A.length-1;pass>=0;pass--){
-            for(int i = 0; i < A.length - pass - 1; i++){
+    public void bubbleSort(int A[]){
+        for( int pass = A.length-1;pass>0;pass--){
+            for(int i = 0; i < pass - 1; i++){
                 if(A[i]>A[i+1]){
                     // swapping.swap(A,i, i+1);
                     int temp = A[i];
