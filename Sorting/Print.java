@@ -13,8 +13,8 @@ public class Print {
 
 
 
-    public  void printArray(int [] array) {
-        System.out.println("\n");
+    public  static void printArray(int [] array) {
+        System.out.println();
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
